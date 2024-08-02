@@ -10,4 +10,4 @@ npm run dev
 
 1. В угоду простоте не поднимал фейк сервер и не занимался оптимизациями, поэтому все данные сразу грузятся в store. Поставил искусственную задержку 400мс (api.ts)
 
-2. Использовал react, typescript, redux toolkit, для виртуализации react-virtualized и для генерации данных fakes.js
+2. Использовал react, typescript, redux toolkit, для виртуализации react-virtualized и для генерации данных faker.js
