@@ -1,0 +1,47 @@
+.row {
+  display: flex;
+  padding: 0;
+  height: 34px;
+}
+
+.row:hover {
+  background-color: #e0e0e0;
+}
+
+.row:first-child {
+  border-top: 1px solid #ccc;
+}
+
+.cell {
+  padding: 0;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.cell:first-child {
+  border-left: 1px solid #ccc;
+}
+
+.cellInput {
+  width: 100%;
+  min-width: 120px;
+  height: 100%;
+  border: none;
+  box-sizing: border-box;
+}
+
+.checkboxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  width: 24px;
+  height: 100%;
+}
+
+.checkboxContainer:hover {
+  background-color: #e0e0e0;
+}
